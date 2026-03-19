@@ -1,0 +1,73 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm2.aspx.cs" Inherits="Ejercicio1_3196323.WebForm2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+    <form id="form2" runat="server">
+        <div>
+        </div>
+        <p>
+            <asp:Label ID="lbCategory" runat="server" Text="Category"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:DropDownList ID="ddlCategory" runat="server" Width="206px">
+                <asp:ListItem>Footwear - Women&#39;s</asp:ListItem>
+                <asp:ListItem>Footwear - Men&#39;s</asp:ListItem>
+            </asp:DropDownList>
+        </p>
+        <p>
+            <asp:Label ID="lbSupplier" runat="server" Text="Supplier"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:DropDownList ID="ddlSupplier" runat="server" Width="134px">
+                <asp:ListItem>Nike</asp:ListItem>
+                <asp:ListItem>Adidas</asp:ListItem>
+            </asp:DropDownList>
+        </p>
+        <p>
+            <asp:Label ID="lbProduct" runat="server" Text="Product"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblProduct" runat="server">label</asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="lbDescription" runat="server" Text="Description"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="txtDescription" runat="server" Width="180px"></asp:TextBox>
+        </p>
+        <p>
+            <asp:Label ID="lb" runat="server" Text="Image"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblImage" runat="server">label</asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="lbPrice" runat="server" Text="Price"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblPrice" runat="server">label</asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="lbNumberInStock" runat="server" Text="Number in Stock"></asp:Label>
+&nbsp;&nbsp;
+            <asp:Label ID="lblValueInStock" runat="server">label</asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="lbNumberOnOrder" runat="server" Text="Number on Order"></asp:Label>
+&nbsp;
+            <asp:Label ID="lblValueOnOrder" runat="server">label</asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="lbReorderLevel" runat="server" Text="Reorder Level"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblReorderLevel" runat="server">label</asp:Label>
+        </p>
+        <p>
+&nbsp;
+            <asp:Button ID="btnSave" runat="server" OnClick="btnSave_Click" Text="Save" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnBack" runat="server" OnClick="btnConfirm_Click" OnClientClick="history.back();return false;" Text="Back" Width="73px" />
+        </p>
+    </form>
+</body>
+</html>

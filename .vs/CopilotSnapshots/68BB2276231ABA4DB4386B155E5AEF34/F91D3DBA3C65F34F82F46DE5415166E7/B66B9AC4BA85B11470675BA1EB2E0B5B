@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Ejercicio1_3196323
+{
+    public partial class WebForm2 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            ddlCategory.SelectedValue = Request.Cookies["ddlCategory"].Value;
+            ddlSupplier.SelectedValue = Request.Cookies["ddlSupplier"].Value;
+            lblProduct.Text = Request.Cookies["strProduct"].Value;
+            txtDescription.Text = Request.Cookies["strDescription"].Value;
+            lblImage.Text = Request.Cookies["strImage"].Value;
+
+            Decimal decPrice = Convert.ToDecimal(Request.Cookies["decPrice"].Value);
+            lblPrice.Text = decPrice.ToString("c");
+
+            lblValueInStock.Text = Request.Cookies["bytNumberInStock"].Value;
+            lblValueOnOrder.Text = Request.Cookies["bytNumberOnOrder"].Value;
+            lblReorderLevel.Text = Request.Cookies["bytReorderLevel"].Value;
+
+            Byte bytNumberInStock = Convert.ToByte(Request.Cookies["bytNumberInStock"].Value);
+            Byte bytNumberOnOrder = Convert.ToByte(Request.Cookies["bytNumberOnOrder"].Value);
+
+            Decimal decValueInStock = decPrice * bytNumberInStock;
+            Decimal decValueOnOrder = decPrice * bytNumberOnOrder;
+
+            lblValueInStock.Text = decValueInStock.ToString("c");
+            lblValueOnOrder.Text = decValueOnOrder.ToString("c");
+        }
+
+        
+
+        protected void btnSave_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm1.aspx");
+        }
+
+        protected void btnConfirm_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
