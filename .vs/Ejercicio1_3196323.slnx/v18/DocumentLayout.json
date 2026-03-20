@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\nesto\\Desktop\\DSA 3\u00B0\\Prof. Arcides\\Modulo 1\\Practica 3\\ASPX\\Ejercicio1_3196323\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{639A126C-30DE-4C9D-80F8-735A681EB7EF}|Ejercicio1_3196323.csproj|C:\\Users\\nesto\\Desktop\\DSA 3\u00B0\\Prof. Arcides\\Modulo 1\\Practica 3\\ASPX\\Ejercicio1_3196323\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639A126C-30DE-4C9D-80F8-735A681EB7EF}|Ejercicio1_3196323.csproj|solutionrelative:webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{639A126C-30DE-4C9D-80F8-735A681EB7EF}|Ejercicio1_3196323.csproj|c:\\users\\nesto\\desktop\\dsa 3\u00B0\\prof. arcides\\modulo 1\\practica 3\\aspx\\ejercicio1_3196323\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{639A126C-30DE-4C9D-80F8-735A681EB7EF}|Ejercicio1_3196323.csproj|solutionrelative:webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{639A126C-30DE-4C9D-80F8-735A681EB7EF}|Ejercicio1_3196323.csproj|C:\\Users\\nesto\\Desktop\\DSA 3\u00B0\\Prof. Arcides\\Modulo 1\\Practica 3\\ASPX\\Ejercicio1_3196323\\webform2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{639A126C-30DE-4C9D-80F8-735A681EB7EF}|Ejercicio1_3196323.csproj|solutionrelative:webform2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{639A126C-30DE-4C9D-80F8-735A681EB7EF}|Ejercicio1_3196323.csproj|C:\\Users\\nesto\\Desktop\\DSA 3\u00B0\\Prof. Arcides\\Modulo 1\\Practica 3\\ASPX\\Ejercicio1_3196323\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{639A126C-30DE-4C9D-80F8-735A681EB7EF}|Ejercicio1_3196323.csproj|solutionrelative:webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{639A126C-30DE-4C9D-80F8-735A681EB7EF}|Ejercicio1_3196323.csproj|C:\\Users\\nesto\\Desktop\\DSA 3\u00B0\\Prof. Arcides\\Modulo 1\\Practica 3\\ASPX\\Ejercicio1_3196323\\webform2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -60,33 +60,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WebForm1.aspx.cs",
               "DocumentMoniker": "C:\\Users\\nesto\\Desktop\\DSA 3\u00B0\\Prof. Arcides\\Modulo 1\\Practica 3\\ASPX\\Ejercicio1_3196323\\WebForm1.aspx.cs",
               "RelativeDocumentMoniker": "WebForm1.aspx.cs",
               "ToolTip": "C:\\Users\\nesto\\Desktop\\DSA 3\u00B0\\Prof. Arcides\\Modulo 1\\Practica 3\\ASPX\\Ejercicio1_3196323\\WebForm1.aspx.cs",
               "RelativeToolTip": "WebForm1.aspx.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADgvxUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAvwCMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T15:04:21.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WebForm2.aspx",
               "DocumentMoniker": "C:\\Users\\nesto\\Desktop\\DSA 3\u00B0\\Prof. Arcides\\Modulo 1\\Practica 3\\ASPX\\Ejercicio1_3196323\\WebForm2.aspx",
               "RelativeDocumentMoniker": "WebForm2.aspx",
               "ToolTip": "C:\\Users\\nesto\\Desktop\\DSA 3\u00B0\\Prof. Arcides\\Modulo 1\\Practica 3\\ASPX\\Ejercicio1_3196323\\WebForm2.aspx",
               "RelativeToolTip": "WebForm2.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-03-19T15:04:01.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WebForm1.aspx",
               "DocumentMoniker": "C:\\Users\\nesto\\Desktop\\DSA 3\u00B0\\Prof. Arcides\\Modulo 1\\Practica 3\\ASPX\\Ejercicio1_3196323\\WebForm1.aspx",
               "RelativeDocumentMoniker": "WebForm1.aspx",

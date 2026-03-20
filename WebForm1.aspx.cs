@@ -32,6 +32,8 @@ namespace Ejercicio1_3196323
             Response.Cookies["bytReorderLevel"].Value = txtReorderLevel.Text;
 
             Response.Redirect("WebForm2.aspx");
+
+            // Hola
         }
     }
 }
